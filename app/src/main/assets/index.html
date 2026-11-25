@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hry pro Matyho a Nelu - náhled na PC</title>
+    <!-- Rozcestník jen pro zkoušení na počítači (python -m http.server nad složkou assets).
+         Na TV ho aplikace nepoužívá, tam má každá hra vlastní dlaždici na domovské obrazovce. -->
+    <style>
+      body {
+        margin: 0;
+        font-family: "Trebuchet MS", Roboto, sans-serif;
+        background: #141c52;
+        color: #fff;
+      }
+      h1 {
+        text-align: center;
+        font-size: 44px;
+        margin: 30px 0 6px;
+        text-transform: uppercase;
+      }
+      p {
+        text-align: center;
+        opacity: 0.75;
+        margin: 0 0 26px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 22px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 24px 40px;
+      }
+      a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 18px;
+        border-radius: 26px;
+        background: rgba(255, 255, 255, 0.09);
+        border: 5px solid rgba(255, 255, 255, 0.15);
+        color: #fff;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+      a:hover,
+      a:focus {
+        border-color: #ffd23d;
+        background: rgba(255, 210, 61, 0.16);
+        outline: none;
+        transform: scale(1.04);
+      }
+      a img {
+        height: 120px;
+        max-width: 180px;
+        object-fit: contain;
+      }
+      a small {
+        font-size: 15px;
+        font-weight: 400;
+        text-transform: none;
+        opacity: 0.75;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hry pro Matyho a Nelu</h1>
+    <p>
+      Šipky + Enter (A) + X (B) = ovladač 1, WASD + F (A) + G (B) = ovladač 2,
+      Esc = zpět
+    </p>
+    <div class="grid">
+      <a href="pexeso/index.html"
+        ><img src="common/img/avatar-maty.png" alt="" />Pexeso<small
+          >dvojice obrázků, anglická slova</small
+        ></a
+      >
+      <a href="dino/index.html"
+        ><img src="dino/img/dino-run1.png" alt="" />Dinosaurus<small
+          >skákání přes kaktusy</small
+        ></a
+      >
+      <a href="zavody/index.html"
+        ><img src="zavody/img/car-green.png" alt="" />Závody<small
+          >louka, poušť, zima, cukrová země</small
+        ></a
+      >
+      <a href="skakacka/index.html"
+        ><img src="skakacka/img/maty-jump.png" alt="" />Skákačka<small
+          >plošinovka, šnek, tunel</small
+        ></a
+      >
+      <a href="rakety/index.html"
+        ><img src="rakety/img/rocket-green.png" alt="" />Rakety<small
+          >vesmírná střílečka, chobotnice</small
+        ></a
+      >
+      <a href="had/index.html"
+        ><img src="had/img/snake-green.png" alt="" />Had<small
+          >ovoce s anglickými slovy</small
+        ></a
+      >
+      <a href="bojovka/index.html"
+        ><img src="bojovka/img/frog-win.png" alt="" />Bojovka<small
+          >zvířecí nindžové</small
+        ></a
+      >
+      <a href="rybicky/index.html"
+        ><img src="rybicky/img/fish-green.png" alt="" />Rybičky<small
+          >větší žere menší</small
+        ></a
+      >
+      <a href="bedynky/index.html"
+        ><img src="bedynky/img/crate.png" alt="" />Bedýnky<small
+          >posouvání beden na hvězdy</small
+        ></a
+      >
+      <a href="bludiste/index.html"
+        ><img src="bludiste/img/chest.png" alt="" />Bludiště<small
+          >20 úrovní v 5 světech</small
+        ></a
+      >
+      <a href="chytacka/index.html"
+        ><img src="chytacka/img/basket-green.png" alt="" />Chytačka<small
+          >košík a padající ovoce</small
+        ></a
+      >
+      <a href="hasici/index.html"
+        ><img src="hasici/hasici/img/truck.png" alt="" />Hasiči<small
+          >hasičské auto, požáry, koťátko</small
+        ></a
+      >
+      <a href="fotbal/index.html"
+        ><img src="fotbal/fotbal/img/ball.png" alt="" />Fotbal a hokej<small
+          >góly na trávě i na ledě</small
+        ></a
+      >
+      <a href="brusle/index.html"
+        ><img src="brusle/brusle/img/inline-nela.png" alt="" />Brusle<small
+          >park, dráha, lyže, snowboard, plavání</small
+        ></a
+      >
+      <a href="penovky/index.html"
+        ><img src="penovky/penovky/img/bunny.png" alt="" />Pěnovky<small
+          >bitva pěnovými šipkami</small
+        ></a
+      >
+      <a href="kostky/index.html"
+        ><img src="kostky/penovky/img/crate.png" alt="" />Kostky<small
+          >padající kostky</small
+        ></a
+      >
+      <a href="jezci/index.html"
+        ><img src="jezci/jezci/img/hedgehog.png" alt="" />Ježci<small
+          >hledání ježků v trávě</small
+        ></a
+      >
+      <a href="drahokamy/index.html"
+        ><img src="drahokamy/../common/img/avatar-nela.png" alt="" />Drahokamy<small
+          >tři stejné drahokamy</small
+        ></a
+      >
+      <a href="krecci/index.html"
+        ><img src="krecci/krecci/img/hamster1.png" alt="" />Křečci domů<small
+          >logika se šipkami</small
+        ></a
+      >
+      <a href="kulicka/index.html"
+        ><img src="kulicka/../common/img/avatar-maty.png" alt="" />Kulička<small
+          >koulení po dráze v oblacích</small
+        ></a
+      >
+      <a href="pinball/index.html"
+        ><img src="pinball/../common/img/avatar-maty.png" alt="" />Pinball<small
+          >ploutve a hvězdy</small
+        ></a
+      >
+      <a href="delfin/index.html"
+        ><img src="delfin/delfin/img/dolphin.png" alt="" />Delfín<small
+          >zpěv, delfíňata, perly</small
+        ></a
+      >
+      <a href="kuratka/index.html"
+        ><img src="kuratka/kuratka/img/chick.png" alt="" />Kuřátka<small
+          >slepička a kuřátka do kurníku</small
+        ></a
+      >
+      <a href="tanec/index.html"
+        ><img src="tanec/tanec/img/bunny-right.png" alt="" />Tanec<small
+          >papoušek ukáže, ty zopakuj</small
+        ></a
+      >
+      <a href="rybareni/index.html"
+        ><img src="rybareni/rybareni/img/boat.png" alt="" />Rybaření<small
+          >udice, ryby a stará bota</small
+        ></a
+      >
+    </div>
+    <script>
+      // ovládání šipkami jako na TV
+      const links = [...document.querySelectorAll("a")];
+      links[0].focus();
+      addEventListener("keydown", (e) => {
+        const i = links.indexOf(document.activeElement);
+        const cols = Math.max(
+          1,
+          Math.round(document.querySelector(".grid").clientWidth / 240),
+        );
+        const d = {
+          ArrowRight: 1,
+          ArrowLeft: -1,
+          ArrowDown: cols,
+          ArrowUp: -cols,
+        }[e.key];
+        if (d) {
+          links[Math.max(0, Math.min(links.length - 1, i + d))].focus();
+          e.preventDefault();
+        }
+      });
+    </script>
+  </body>
+</html>

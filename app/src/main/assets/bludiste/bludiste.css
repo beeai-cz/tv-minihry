@@ -1,0 +1,171 @@
+/* Bludiště: pozadí menu podle světa a dlaždice výběru úrovně (řada = svět). */
+.menu-bg.garden,
+.menu-bg.w0 {
+  background: radial-gradient(
+    ellipse at 50% 30%,
+    #4fae3a 0%,
+    #2b7424 55%,
+    #143f16 100%
+  );
+}
+.menu-bg.w1 {
+  background: radial-gradient(
+    ellipse at 50% 30%,
+    #8cc8f5 0%,
+    #3d7cc6 55%,
+    #1b3a74 100%
+  );
+}
+.menu-bg.w2 {
+  background: radial-gradient(
+    ellipse at 50% 30%,
+    #f7b45c 0%,
+    #d9702a 55%,
+    #7f3812 100%
+  );
+}
+.menu-bg.w3 {
+  background: radial-gradient(
+    ellipse at 50% 30%,
+    #ec9ade 0%,
+    #b158c4 55%,
+    #5a2675 100%
+  );
+}
+.menu-bg.w4 {
+  background: radial-gradient(
+    ellipse at 50% 30%,
+    #3c55a0 0%,
+    #1f2c66 55%,
+    #0c1334 100%
+  );
+}
+
+.lvl-title {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 80px;
+  font-weight: 900;
+  text-shadow: 0 6px 0 rgba(0, 0, 0, 0.35);
+}
+.lvl-title .avatar {
+  width: 120px;
+  height: 120px;
+  border-width: 6px;
+}
+.lvl-title .avatar-pair .avatar + .avatar {
+  margin-left: -34px;
+}
+
+/* 5 řad (světů) po 4 dlaždicích; vlevo jméno světa v jeho barvě. */
+.levels {
+  position: absolute;
+  top: 192px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+.lvl-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 0 40px 0 0;
+  border-radius: 80px;
+  background: var(--wc-bg);
+}
+.lvl-world {
+  width: 400px;
+  height: 146px;
+  box-sizing: border-box;
+  border-radius: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+  background: var(--wc);
+  text-shadow: 0 4px 0 rgba(0, 0, 0, 0.3);
+}
+.lvl-row.w0 {
+  --wc: #4ea43a;
+  --wc-bg: rgba(78, 164, 58, 0.28);
+}
+.lvl-row.w1 {
+  --wc: #5f9ee0;
+  --wc-bg: rgba(200, 230, 255, 0.25);
+}
+.lvl-row.w2 {
+  --wc: #e08a3a;
+  --wc-bg: rgba(240, 170, 90, 0.28);
+}
+.lvl-row.w3 {
+  --wc: #f0679f;
+  --wc-bg: rgba(255, 143, 192, 0.3);
+}
+.lvl-row.w4 {
+  --wc: #6c7bd1;
+  --wc-bg: rgba(120, 135, 220, 0.3);
+}
+
+/* Dlaždice s čísly; dohraná má zlatou hvězdu, fokus žlutý rámeček jako v menu. */
+.lvl {
+  position: relative;
+  width: 146px;
+  height: 146px;
+  border-radius: 36px;
+  background: rgba(255, 255, 255, 0.14);
+  border: 7px solid var(--wc);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+  font-weight: 900;
+  transition:
+    transform 0.15s ease,
+    border-color 0.15s ease,
+    background 0.15s ease;
+}
+.lvl.done {
+  background: rgba(255, 210, 61, 0.2);
+}
+.lvl.done::after {
+  content: "★";
+  position: absolute;
+  top: -28px;
+  right: -20px;
+  font-size: 66px;
+  line-height: 1;
+  color: #ffd23d;
+  text-shadow: 0 4px 0 rgba(0, 0, 0, 0.35);
+}
+.lvl.focus {
+  transform: scale(1.14);
+  border-color: #ffd23d;
+  background: rgba(255, 210, 61, 0.4);
+  box-shadow: 0 0 50px rgba(255, 210, 61, 0.7);
+}
+
+/* Ohlášení nového světa na začátku úrovně: jméno světa a pod ním úroveň. */
+.count.intro {
+  flex-direction: column;
+  line-height: 1.05;
+}
+.count .intro-world {
+  font-size: 190px;
+  color: #fff;
+}
+.count .intro-lvl {
+  font-size: 110px;
+}

@@ -1,0 +1,12 @@
+/* Výběr světa: karta s náhledem pozadí světa. */
+.choice.world {
+  width: 500px;
+}
+.world-pic {
+  width: 420px;
+  height: 260px;
+  border-radius: 28px;
+  background: #7fd0ff center / cover no-repeat;
+  border: 6px solid rgba(255, 255, 255, 0.85);
+  box-sizing: border-box;
+}

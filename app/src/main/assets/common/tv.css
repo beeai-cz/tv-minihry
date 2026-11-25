@@ -1,0 +1,159 @@
+/* Společný vzhled her: scéna 1920x1080 uprostřed obrazovky, velká písmena pro TV, konfety. */
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #0b1030;
+  overflow: hidden;
+  font-family: "Trebuchet MS", "Roboto", "Segoe UI", sans-serif;
+  color: #fff;
+  user-select: none;
+  cursor: none;
+}
+#stage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 1920px;
+  height: 1080px;
+  transform-origin: center center;
+  overflow: hidden;
+  background: radial-gradient(
+    ellipse at 50% 30%,
+    #2a3a8f 0%,
+    #141c52 55%,
+    #0b1030 100%
+  );
+}
+#screen,
+#fx {
+  position: absolute;
+  inset: 0;
+}
+#fx {
+  pointer-events: none;
+  z-index: 50;
+}
+
+.pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.pic .emoji {
+  line-height: 1;
+}
+
+.confetti {
+  position: absolute;
+  top: -40px;
+  width: 22px;
+  height: 34px;
+  border-radius: 6px;
+  animation-name: confetti-fall;
+  animation-timing-function: cubic-bezier(0.3, 0.6, 0.6, 1);
+  animation-fill-mode: forwards;
+}
+@keyframes confetti-fall {
+  to {
+    top: 1140px;
+    transform: rotate(720deg) translateX(120px);
+  }
+}
+
+.title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 4px;
+  text-shadow: 0 6px 0 rgba(0, 0, 0, 0.35);
+}
+
+/* Velká tlačítka voleb v menu: fokus = žlutý rámeček, zvětšení, poskakování. */
+.choices {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.choice {
+  width: 440px;
+  height: 520px;
+  border-radius: 48px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 8px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+  transition:
+    transform 0.18s ease,
+    border-color 0.18s ease,
+    background 0.18s ease;
+}
+.choice .label {
+  font-size: 64px;
+  font-weight: 900;
+}
+.choice.focus {
+  transform: scale(1.08);
+  border-color: #ffd23d;
+  background: rgba(255, 210, 61, 0.18);
+  box-shadow: 0 0 60px rgba(255, 210, 61, 0.55);
+  animation: bob 1.2s ease-in-out infinite;
+}
+@keyframes bob {
+  0%,
+  100% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: -16px;
+  }
+}
+
+.avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #fff;
+  border: 8px solid #fff;
+}
+.avatar .emoji {
+  font-size: 210px;
+}
+.avatar-pair {
+  display: flex;
+}
+.avatar-pair .avatar {
+  width: 230px;
+  height: 230px;
+}
+.avatar-pair .avatar + .avatar {
+  margin-left: -60px;
+}
+
+/* Děti zatím čtou jen velká tiskací písmena: všechny texty našich her jsou VERZÁLKAMI.
+   Jen vzhledem (text-transform), hlas dál dostává normální slova, jinak by je hláskoval. */
+#stage { text-transform: uppercase; }
+
+/* Načítání hry */
+.loading { position: absolute; inset: 0; z-index: 100; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 50px;
+  background: radial-gradient(ellipse at 50% 30%, #2a3a8f 0%, #141c52 55%, #0b1030 100%); }
+.loading-kids { display: flex; gap: 60px; }
+.loading-kids .avatar { width: 240px; height: 240px; animation: bob 0.9s ease-in-out infinite; }
+.loading-kids .avatar + .avatar { animation-delay: .45s; }
+.loading-title { font-size: 90px; font-weight: 900; }
+.loading-bar { width: 900px; height: 40px; border-radius: 30px; background: rgba(255, 255, 255, .15); overflow: hidden; border: 5px solid rgba(255, 255, 255, .3); }
+.loading-bar div { height: 100%; width: 0; border-radius: 30px; background: linear-gradient(90deg, #5cc93b, #ffd23d, #ff6b9a); transition: width .2s linear; }

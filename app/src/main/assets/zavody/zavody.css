@@ -1,0 +1,186 @@
+/* Závody: plátno se silnicí pod HTML vrstvou (menu, odpočet, oslava). */
+#road {
+  position: absolute;
+  inset: 0;
+  width: 1920px;
+  height: 1080px;
+}
+#screen {
+  z-index: 5;
+}
+.menu-bg {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at 50% 30%,
+    #2a3a8f 0%,
+    #141c52 55%,
+    #0b1030 100%
+  );
+}
+
+/* Párování ovladačů v režimu SPOLU */
+.pair {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background: rgba(8, 12, 40, 0.85);
+}
+.pair-row {
+  display: flex;
+  gap: 140px;
+}
+.pair-kid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  opacity: 0.45;
+  transition: all 0.2s ease;
+}
+.pair-kid.now {
+  opacity: 1;
+  transform: scale(1.08);
+  animation: bob 1s ease-in-out infinite;
+}
+.pair-kid.ok {
+  opacity: 1;
+}
+.pair-kid .label {
+  font-size: 60px;
+  font-weight: 900;
+}
+.pair-kid .hint {
+  font-size: 44px;
+  color: #ffd23d;
+  font-weight: 900;
+  min-height: 56px;
+}
+.pair-title {
+  font-size: 80px;
+  font-weight: 900;
+}
+
+/* Odpočet 3-2-1-JEĎ */
+.count {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 340px;
+  font-weight: 900;
+  color: #ffd23d;
+  text-shadow: 0 14px 0 rgba(0, 0, 0, 0.4);
+  animation: pulse 0.9s ease-out;
+}
+@keyframes pulse {
+  from {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* Oslava (stejně jako v pexesu) */
+.end {
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 12, 40, 0.78);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.end-box {
+  text-align: center;
+}
+.end-title {
+  font-size: 170px;
+  font-weight: 900;
+  color: #ffd23d;
+  text-shadow: 0 10px 0 rgba(0, 0, 0, 0.35);
+  animation: bob 1s ease-in-out infinite;
+}
+.end-players {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  margin: 40px 0 50px;
+}
+.end-player {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.end-player .avatar {
+  width: 260px;
+  height: 260px;
+}
+.end-name {
+  font-size: 64px;
+  font-weight: 900;
+  margin-top: 14px;
+}
+.end-stars {
+  font-size: 60px;
+  color: #ffd23d;
+}
+.crown {
+  position: absolute;
+  top: -70px;
+  font-size: 90px;
+  animation: bob 1s ease-in-out infinite;
+}
+.end-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.btn {
+  font-size: 56px;
+  font-weight: 900;
+  padding: 24px 60px;
+  border-radius: 80px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 6px solid rgba(255, 255, 255, 0.25);
+  transition: all 0.15s ease;
+}
+.btn.focus {
+  background: #ffd23d;
+  color: #1b2a6b;
+  border-color: #fff;
+  transform: scale(1.08);
+  box-shadow: 0 0 50px rgba(255, 210, 61, 0.7);
+}
+
+.count.ready { font-size: 160px; }
+
+/* Výběr trasy: 4 karty s náhledem kresleným do malého plátna. */
+.choice.track {
+  width: 390px;
+  gap: 20px;
+}
+.choice.track .label {
+  font-size: 52px;
+  line-height: 1.05;
+  text-align: center;
+  padding: 0 14px;
+}
+.track-pic {
+  width: 340px;
+  height: 230px;
+  border-radius: 26px;
+  border: 6px solid rgba(255, 255, 255, 0.85);
+  box-sizing: border-box;
+}

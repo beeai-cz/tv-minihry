@@ -1,0 +1,276 @@
+/* Pexeso: menu s tématy, hrací plocha s otáčecími kartami, oslava. */
+.topics .choice {
+  width: 360px;
+  height: 470px;
+}
+.topic-pic {
+  width: 260px;
+  height: 260px;
+}
+.topic-pic .emoji {
+  font-size: 200px;
+}
+.all-pic {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.all-pic .pic {
+  width: 126px;
+  height: 126px;
+}
+.all-pic .emoji {
+  font-size: 100px;
+}
+
+/* Hlavička s hráči */
+.head {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  right: 0;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.player {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 12px 40px 12px 14px;
+  border-radius: 100px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 6px solid transparent;
+  opacity: 0.9;
+  transition: all 0.25s ease;
+}
+.player .avatar {
+  width: 130px;
+  height: 130px;
+  border-width: 5px;
+}
+.player .avatar .emoji {
+  font-size: 90px;
+}
+.player .score {
+  display: flex;
+  flex-direction: column;
+}
+.player .name {
+  font-size: 54px;
+  font-weight: 900;
+}
+.player .stars {
+  font-size: 46px;
+  color: #ffd23d;
+  min-height: 54px;
+}
+.player.active {
+  border-color: var(--pc);
+  background: rgba(255, 255, 255, 0.16);
+  box-shadow: 0 0 50px var(--pc);
+  transform: scale(1.06);
+  animation: bob 1.2s ease-in-out infinite;
+  opacity: 1;
+}
+.head:has(.player + .turn-arrow) .player:not(.active) {
+  opacity: 0.45;
+}
+.turn-arrow {
+  font-size: 90px;
+  color: #ffd23d;
+  width: 110px;
+  text-align: center;
+}
+
+/* Karty */
+.board {
+  position: absolute;
+  top: 180px;
+  left: 0;
+  right: 0;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 890px;
+}
+.card {
+  perspective: 1400px;
+  transition: transform 0.15s ease;
+}
+.card .inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.45s cubic-bezier(0.4, 1.6, 0.5, 1);
+}
+.card.up .inner {
+  transform: rotateY(180deg);
+}
+.face {
+  position: absolute;
+  inset: 0;
+  border-radius: 28px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+.back {
+  background: repeating-linear-gradient(
+    45deg,
+    #ff8a3d 0 22px,
+    #ffa45e 22px 44px
+  );
+  border: 8px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back-star {
+  font-size: calc(var(--cw) * 0.45);
+  color: #fff;
+  text-shadow: 0 6px 0 rgba(0, 0, 0, 0.2);
+}
+.front {
+  transform: rotateY(180deg);
+  background: #fff;
+  border: 8px solid #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #1b2a6b;
+  overflow: hidden;
+}
+.card-pic {
+  width: 78%;
+  height: 62%;
+}
+.card-pic .emoji {
+  font-size: calc(var(--cw) * 0.5);
+}
+.word {
+  font-size: calc(var(--cw) * 0.17);
+  font-weight: 900;
+  line-height: 1.1;
+}
+.word-cs {
+  font-size: calc(var(--cw) * 0.085);
+  color: #8a93b8;
+  font-weight: 700;
+}
+
+.card.focus {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.card.focus .face {
+  border-color: #ffd23d;
+  box-shadow:
+    0 0 0 6px #ffd23d,
+    0 0 50px rgba(255, 210, 61, 0.9);
+}
+.card.done .front {
+  background: #eafff0;
+  border-color: #7bdc65;
+}
+.card.done:not(.focus) {
+  opacity: 0.75;
+}
+.card.pop {
+  animation: pop 0.6s ease;
+}
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Oslava */
+.end {
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 12, 40, 0.78);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.end-box {
+  text-align: center;
+}
+.end-title {
+  font-size: 170px;
+  font-weight: 900;
+  color: #ffd23d;
+  text-shadow: 0 10px 0 rgba(0, 0, 0, 0.35);
+  animation: bob 1s ease-in-out infinite;
+}
+.end-players {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  margin: 20px 0 50px;
+}
+.end-player {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.end-player .avatar {
+  width: 260px;
+  height: 260px;
+}
+.end-name {
+  font-size: 64px;
+  font-weight: 900;
+  margin-top: 14px;
+}
+.end-stars {
+  font-size: 60px;
+  color: #ffd23d;
+}
+.crown {
+  position: absolute;
+  top: -110px;
+  font-size: 120px;
+  animation: bob 1s ease-in-out infinite;
+}
+.end-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.btn {
+  font-size: 56px;
+  font-weight: 900;
+  padding: 24px 60px;
+  border-radius: 80px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 6px solid rgba(255, 255, 255, 0.25);
+  transition: all 0.15s ease;
+}
+.btn.focus {
+  background: #ffd23d;
+  color: #1b2a6b;
+  border-color: #fff;
+  transform: scale(1.08);
+  box-shadow: 0 0 50px rgba(255, 210, 61, 0.7);
+}
+
+/* Doladění: větší obrázek na kartě, zaoblené obrázky témat. */
+.card-pic { width: 88%; height: 68%; }
+.word-cs { display: none; }
+.topic-pic img { border-radius: 28px; }
+.all-pic img { border-radius: 16px; }
+.crown { top: -70px; font-size: 90px; }

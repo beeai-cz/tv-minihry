@@ -1,0 +1,17 @@
+/* Rybičky: podmořské pozadí menu. Když img/bg.jpg chybí, zůstane přechod tyrkysová -> modrá s pískem. */
+.menu-bg.sea {
+  background:
+    linear-gradient(rgba(0, 40, 90, 0.2), rgba(0, 30, 80, 0.45)),
+    url("img/bg.jpg") center / cover,
+    linear-gradient(180deg, #7fe3e8 0%, #2b9ad6 50%, #1c5fae 88%, #e8d08c 88%);
+}
+#stage { background: #1c5fae; }
+.pair { background: rgba(0, 30, 80, 0.7); }
+.end { background: rgba(0, 30, 80, 0.72); }
+/* Oslava mezi úrovněmi */
+.level-next {
+  font-size: 100px;
+  font-weight: 900;
+  margin-top: 10px;
+  text-shadow: 0 8px 0 rgba(0, 0, 0, 0.35);
+}

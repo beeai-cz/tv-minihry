@@ -1,0 +1,7 @@
+/* Menu Raket: vesmírné pozadí místo modrého přechodu ze Závodů. */
+.menu-bg.space {
+  background:
+    linear-gradient(rgba(8, 10, 40, 0.45), rgba(8, 10, 40, 0.65)),
+    url("img/bg.jpg") center / cover,
+    #0b1030;
+}

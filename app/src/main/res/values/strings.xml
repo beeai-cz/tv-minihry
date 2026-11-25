@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hry</string>
+    <string name="game_pexeso">Pexeso</string>
+    <string name="game_dino">Dinosaurus</string>
+    <string name="game_zavody">Závody</string>
+    <string name="game_skakacka">Skákačka</string>
+    <string name="game_rakety">Rakety</string>
+    <string name="game_had">Had</string>
+    <string name="game_bojovka">Bojovka</string>
+    <string name="game_rybicky">Rybičky</string>
+    <string name="game_bedynky">Bedýnky</string>
+    <string name="game_bludiste">Bludiště</string>
+    <string name="game_chytacka">Chytačka</string>
+    <string name="game_hasici">Hasiči</string>
+    <string name="game_fotbal">Fotbal a hokej</string>
+    <string name="game_brusle">Brusle</string>
+    <string name="game_penovky">Pěnovky</string>
+    <string name="game_kostky">Kostky</string>
+    <string name="game_jezci">Ježci</string>
+    <string name="game_drahokamy">Drahokamy</string>
+    <string name="game_krecci">Křečci domů</string>
+    <string name="game_kulicka">Kulička</string>
+    <string name="game_pinball">Pinball</string>
+    <string name="game_delfin">Delfín</string>
+    <string name="game_kuratka">Kuřátka</string>
+    <string name="game_tanec">Tanec</string>
+    <string name="game_rybareni">Rybaření</string>
+</resources>

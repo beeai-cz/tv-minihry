@@ -1,0 +1,399 @@
+cs000|cs-CZ|Kdo bude hrát?
+cs001|cs-CZ|Co budeme hledat?
+cs002|cs-CZ|Najdi dvojice!
+cs003|cs-CZ|Maty, jsi na řadě!
+cs004|cs-CZ|Nelo, jsi na řadě!
+cs005|cs-CZ|Hurá, Maty! Dokázal jsi to!
+cs006|cs-CZ|Hurá, Nelo! Dokázala jsi to!
+cs007|cs-CZ|Vyhrál Maty! Oba jste byli skvělí!
+cs008|cs-CZ|Vyhrála Nela! Oba jste byli skvělí!
+cs009|cs-CZ|Remíza! Oba jste byli skvělí!
+cs010|cs-CZ|Kdo pojede?
+cs011|cs-CZ|Maty, zmáčkni tlačítko na svém ovladači.
+cs012|cs-CZ|Nelo, zmáčkni tlačítko na svém ovladači.
+cs013|cs-CZ|Připrav se!
+cs014|cs-CZ|Připravte se!
+cs015|cs-CZ|Tři
+cs016|cs-CZ|Dva
+cs017|cs-CZ|Jedna
+cs018|cs-CZ|Jeď!
+cs019|cs-CZ|Maty je v cíli první!
+cs020|cs-CZ|Nela je v cíli první!
+cs021|cs-CZ|Hurá, Maty! Jsi v cíli!
+cs022|cs-CZ|Hurá, Nelo! Jsi v cíli!
+cs023|cs-CZ|Vyhrál Maty! Oba jste skvělí řidiči!
+cs024|cs-CZ|Vyhrála Nela! Oba jste skvělí řidiči!
+cs025|cs-CZ|Tentokrát nemáš žádnou hvězdičku.
+cs026|cs-CZ|Máš jednu hvězdičku!
+cs027|cs-CZ|Máš dvě hvězdičky!
+cs028|cs-CZ|Máš tři hvězdičky!
+cs029|cs-CZ|Máš čtyři hvězdičky!
+cs030|cs-CZ|Máš pět hvězdiček!
+cs031|cs-CZ|Máš šest hvězdiček!
+cs032|cs-CZ|Máš sedm hvězdiček!
+cs033|cs-CZ|Máš osm hvězdiček!
+cs034|cs-CZ|Máš devět hvězdiček!
+cs035|cs-CZ|Máš deset hvězdiček!
+cs036|cs-CZ|Máš jedenáct hvězdiček!
+cs037|cs-CZ|Máš dvanáct hvězdiček!
+cs038|cs-CZ|Máš třináct hvězdiček!
+cs039|cs-CZ|Máš čtrnáct hvězdiček!
+cs040|cs-CZ|Máš patnáct hvězdiček!
+cs041|cs-CZ|Máš šestnáct hvězdiček!
+cs042|cs-CZ|Máš sedmnáct hvězdiček!
+cs043|cs-CZ|Máš osmnáct hvězdiček!
+cs044|cs-CZ|Máš devatenáct hvězdiček!
+cs045|cs-CZ|Máš dvacet hvězdiček!
+cs046|cs-CZ|Máš dvacet jedna hvězdiček!
+cs047|cs-CZ|Máš dvacet dvě hvězdiček!
+cs048|cs-CZ|Máš dvacet tři hvězdiček!
+cs049|cs-CZ|Máš dvacet čtyři hvězdiček!
+cs050|cs-CZ|Máš dvacet pět hvězdiček!
+cs051|cs-CZ|Máš dvacet šest hvězdiček!
+cs052|cs-CZ|Máš dvacet sedm hvězdiček!
+cs053|cs-CZ|Máš dvacet osm hvězdiček!
+cs054|cs-CZ|Máš dvacet devět hvězdiček!
+cs055|cs-CZ|Máš třicet hvězdiček!
+cs056|cs-CZ|Máš třicet jedna hvězdiček!
+cs057|cs-CZ|Máš třicet dvě hvězdiček!
+cs058|cs-CZ|Máš třicet tři hvězdiček!
+cs059|cs-CZ|Máš třicet čtyři hvězdiček!
+cs060|cs-CZ|Máš třicet pět hvězdiček!
+cs061|cs-CZ|Máš třicet šest hvězdiček!
+cs062|cs-CZ|Máš třicet sedm hvězdiček!
+cs063|cs-CZ|Máš třicet osm hvězdiček!
+cs064|cs-CZ|Máš třicet devět hvězdiček!
+cs065|cs-CZ|Máš čtyřicet hvězdiček!
+cs066|cs-CZ|Máš čtyřicet jedna hvězdiček!
+cs067|cs-CZ|Máš čtyřicet dvě hvězdiček!
+cs068|cs-CZ|Máš čtyřicet tři hvězdiček!
+cs069|cs-CZ|Máš čtyřicet čtyři hvězdiček!
+cs070|cs-CZ|Máš čtyřicet pět hvězdiček!
+cs071|cs-CZ|Máš čtyřicet šest hvězdiček!
+cs072|cs-CZ|Máš čtyřicet sedm hvězdiček!
+cs073|cs-CZ|Máš čtyřicet osm hvězdiček!
+cs074|cs-CZ|Máš čtyřicet devět hvězdiček!
+cs075|cs-CZ|Máš padesát hvězdiček!
+cs076|cs-CZ|Máš padesát jedna hvězdiček!
+cs077|cs-CZ|Máš padesát dvě hvězdiček!
+cs078|cs-CZ|Máš padesát tři hvězdiček!
+cs079|cs-CZ|Máš padesát čtyři hvězdiček!
+cs080|cs-CZ|Máš padesát pět hvězdiček!
+cs081|cs-CZ|Máš padesát šest hvězdiček!
+cs082|cs-CZ|Máš padesát sedm hvězdiček!
+cs083|cs-CZ|Máš padesát osm hvězdiček!
+cs084|cs-CZ|Máš padesát devět hvězdiček!
+cs085|cs-CZ|Máš šedesát hvězdiček!
+cs086|cs-CZ|Kdo bude skákat?
+cs087|cs-CZ|Jdeme na to!
+cs088|cs-CZ|Hups!
+cs089|cs-CZ|Hurá! Oba jste to zvládli!
+cs090|cs-CZ|Máš šedesát jedna hvězdiček!
+cs091|cs-CZ|Máš šedesát dvě hvězdiček!
+cs092|cs-CZ|Máš šedesát tři hvězdiček!
+cs093|cs-CZ|Máš šedesát čtyři hvězdiček!
+cs094|cs-CZ|Máš šedesát pět hvězdiček!
+cs095|cs-CZ|Máš šedesát šest hvězdiček!
+cs096|cs-CZ|Máš šedesát sedm hvězdiček!
+cs097|cs-CZ|Máš šedesát osm hvězdiček!
+cs098|cs-CZ|Máš šedesát devět hvězdiček!
+cs099|cs-CZ|Máš sedmdesát hvězdiček!
+cs100|cs-CZ|Máš sedmdesát jedna hvězdiček!
+cs101|cs-CZ|Máš sedmdesát dvě hvězdiček!
+cs102|cs-CZ|Máš sedmdesát tři hvězdiček!
+cs103|cs-CZ|Máš sedmdesát čtyři hvězdiček!
+cs104|cs-CZ|Máš sedmdesát pět hvězdiček!
+cs105|cs-CZ|Máš sedmdesát šest hvězdiček!
+cs106|cs-CZ|Máš sedmdesát sedm hvězdiček!
+cs107|cs-CZ|Máš sedmdesát osm hvězdiček!
+cs108|cs-CZ|Máš sedmdesát devět hvězdiček!
+cs109|cs-CZ|Máš osmdesát hvězdiček!
+cs110|cs-CZ|Máš osmdesát jedna hvězdiček!
+cs111|cs-CZ|Máš osmdesát dvě hvězdiček!
+cs112|cs-CZ|Máš osmdesát tři hvězdiček!
+cs113|cs-CZ|Máš osmdesát čtyři hvězdiček!
+cs114|cs-CZ|Máš osmdesát pět hvězdiček!
+cs115|cs-CZ|Máš osmdesát šest hvězdiček!
+cs116|cs-CZ|Máš osmdesát sedm hvězdiček!
+cs117|cs-CZ|Máš osmdesát osm hvězdiček!
+cs118|cs-CZ|Máš osmdesát devět hvězdiček!
+cs119|cs-CZ|Máš devadesát hvězdiček!
+cs120|cs-CZ|Máš devadesát jedna hvězdiček!
+cs121|cs-CZ|Máš devadesát dvě hvězdiček!
+cs122|cs-CZ|Máš devadesát tři hvězdiček!
+cs123|cs-CZ|Máš devadesát čtyři hvězdiček!
+cs124|cs-CZ|Máš devadesát pět hvězdiček!
+cs125|cs-CZ|Máš devadesát šest hvězdiček!
+cs126|cs-CZ|Máš devadesát sedm hvězdiček!
+cs127|cs-CZ|Máš devadesát osm hvězdiček!
+cs128|cs-CZ|Máš devadesát devět hvězdiček!
+cs129|cs-CZ|Máš sto hvězdiček!
+cs130|cs-CZ|Máš sto jedna hvězdiček!
+cs131|cs-CZ|Máš sto dvě hvězdiček!
+cs132|cs-CZ|Máš sto tři hvězdiček!
+cs133|cs-CZ|Máš sto čtyři hvězdiček!
+cs134|cs-CZ|Máš sto pět hvězdiček!
+cs135|cs-CZ|Máš sto šest hvězdiček!
+cs136|cs-CZ|Máš sto sedm hvězdiček!
+cs137|cs-CZ|Máš sto osm hvězdiček!
+cs138|cs-CZ|Máš sto devět hvězdiček!
+cs139|cs-CZ|Máš sto deset hvězdiček!
+cs140|cs-CZ|Máš sto jedenáct hvězdiček!
+cs141|cs-CZ|Máš sto dvanáct hvězdiček!
+cs142|cs-CZ|Máš sto třináct hvězdiček!
+cs143|cs-CZ|Máš sto čtrnáct hvězdiček!
+cs144|cs-CZ|Máš sto patnáct hvězdiček!
+cs145|cs-CZ|Máš sto šestnáct hvězdiček!
+cs146|cs-CZ|Máš sto sedmnáct hvězdiček!
+cs147|cs-CZ|Máš sto osmnáct hvězdiček!
+cs148|cs-CZ|Máš sto devatenáct hvězdiček!
+cs149|cs-CZ|Máš sto dvacet hvězdiček!
+cs150|cs-CZ|Máš sto dvacet jedna hvězdiček!
+cs151|cs-CZ|Máš sto dvacet dvě hvězdiček!
+cs152|cs-CZ|Máš sto dvacet tři hvězdiček!
+cs153|cs-CZ|Máš sto dvacet čtyři hvězdiček!
+cs154|cs-CZ|Máš sto dvacet pět hvězdiček!
+cs155|cs-CZ|Máš sto dvacet šest hvězdiček!
+cs156|cs-CZ|Máš sto dvacet sedm hvězdiček!
+cs157|cs-CZ|Máš sto dvacet osm hvězdiček!
+cs158|cs-CZ|Máš sto dvacet devět hvězdiček!
+cs159|cs-CZ|Máš sto třicet hvězdiček!
+cs160|cs-CZ|Máš sto třicet jedna hvězdiček!
+cs161|cs-CZ|Máš sto třicet dvě hvězdiček!
+cs162|cs-CZ|Máš sto třicet tři hvězdiček!
+cs163|cs-CZ|Máš sto třicet čtyři hvězdiček!
+cs164|cs-CZ|Máš sto třicet pět hvězdiček!
+cs165|cs-CZ|Máš sto třicet šest hvězdiček!
+cs166|cs-CZ|Máš sto třicet sedm hvězdiček!
+cs167|cs-CZ|Máš sto třicet osm hvězdiček!
+cs168|cs-CZ|Máš sto třicet devět hvězdiček!
+cs169|cs-CZ|Máš sto čtyřicet hvězdiček!
+cs170|cs-CZ|Máš sto čtyřicet jedna hvězdiček!
+cs171|cs-CZ|Máš sto čtyřicet dvě hvězdiček!
+cs172|cs-CZ|Máš sto čtyřicet tři hvězdiček!
+cs173|cs-CZ|Máš sto čtyřicet čtyři hvězdiček!
+cs174|cs-CZ|Máš sto čtyřicet pět hvězdiček!
+cs175|cs-CZ|Máš sto čtyřicet šest hvězdiček!
+cs176|cs-CZ|Máš sto čtyřicet sedm hvězdiček!
+cs177|cs-CZ|Máš sto čtyřicet osm hvězdiček!
+cs178|cs-CZ|Máš sto čtyřicet devět hvězdiček!
+cs179|cs-CZ|Máš sto padesát hvězdiček!
+cs180|cs-CZ|Máš sto padesát jedna hvězdiček!
+cs181|cs-CZ|Máš sto padesát dvě hvězdiček!
+cs182|cs-CZ|Máš sto padesát tři hvězdiček!
+cs183|cs-CZ|Máš sto padesát čtyři hvězdiček!
+cs184|cs-CZ|Máš sto padesát pět hvězdiček!
+cs185|cs-CZ|Máš sto padesát šest hvězdiček!
+cs186|cs-CZ|Máš sto padesát sedm hvězdiček!
+cs187|cs-CZ|Máš sto padesát osm hvězdiček!
+cs188|cs-CZ|Máš sto padesát devět hvězdiček!
+cs189|cs-CZ|Máš sto šedesát hvězdiček!
+cs190|cs-CZ|Máš sto šedesát jedna hvězdiček!
+cs191|cs-CZ|Máš sto šedesát dvě hvězdiček!
+cs192|cs-CZ|Máš sto šedesát tři hvězdiček!
+cs193|cs-CZ|Máš sto šedesát čtyři hvězdiček!
+cs194|cs-CZ|Máš sto šedesát pět hvězdiček!
+cs195|cs-CZ|Máš sto šedesát šest hvězdiček!
+cs196|cs-CZ|Máš sto šedesát sedm hvězdiček!
+cs197|cs-CZ|Máš sto šedesát osm hvězdiček!
+cs198|cs-CZ|Máš sto šedesát devět hvězdiček!
+cs199|cs-CZ|Máš sto sedmdesát hvězdiček!
+cs200|cs-CZ|Máš sto sedmdesát jedna hvězdiček!
+cs201|cs-CZ|Máš sto sedmdesát dvě hvězdiček!
+cs202|cs-CZ|Máš sto sedmdesát tři hvězdiček!
+cs203|cs-CZ|Máš sto sedmdesát čtyři hvězdiček!
+cs204|cs-CZ|Máš sto sedmdesát pět hvězdiček!
+cs205|cs-CZ|Máš sto sedmdesát šest hvězdiček!
+cs206|cs-CZ|Máš sto sedmdesát sedm hvězdiček!
+cs207|cs-CZ|Máš sto sedmdesát osm hvězdiček!
+cs208|cs-CZ|Máš sto sedmdesát devět hvězdiček!
+cs209|cs-CZ|Máš sto osmdesát hvězdiček!
+cs210|cs-CZ|Máš sto osmdesát jedna hvězdiček!
+cs211|cs-CZ|Máš sto osmdesát dvě hvězdiček!
+cs212|cs-CZ|Máš sto osmdesát tři hvězdiček!
+cs213|cs-CZ|Máš sto osmdesát čtyři hvězdiček!
+cs214|cs-CZ|Máš sto osmdesát pět hvězdiček!
+cs215|cs-CZ|Máš sto osmdesát šest hvězdiček!
+cs216|cs-CZ|Máš sto osmdesát sedm hvězdiček!
+cs217|cs-CZ|Máš sto osmdesát osm hvězdiček!
+cs218|cs-CZ|Máš sto osmdesát devět hvězdiček!
+cs219|cs-CZ|Máš sto devadesát hvězdiček!
+cs220|cs-CZ|Máš sto devadesát jedna hvězdiček!
+cs221|cs-CZ|Máš sto devadesát dvě hvězdiček!
+cs222|cs-CZ|Máš sto devadesát tři hvězdiček!
+cs223|cs-CZ|Máš sto devadesát čtyři hvězdiček!
+cs224|cs-CZ|Máš sto devadesát pět hvězdiček!
+cs225|cs-CZ|Máš sto devadesát šest hvězdiček!
+cs226|cs-CZ|Máš sto devadesát sedm hvězdiček!
+cs227|cs-CZ|Máš sto devadesát osm hvězdiček!
+cs228|cs-CZ|Máš sto devadesát devět hvězdiček!
+cs229|cs-CZ|Kdo poletí?
+cs230|cs-CZ|Start!
+cs231|cs-CZ|Trojitá střela!
+cs232|cs-CZ|Kulomet!
+cs233|cs-CZ|Plamenomet!
+cs234|cs-CZ|Rakety!
+cs235|cs-CZ|Štít!
+cs236|cs-CZ|Pozor, velká chobotnice!
+cs237|cs-CZ|Hurá, Maty! Vyhrál jsi!
+cs238|cs-CZ|Hurá, Nelo! Vyhrála jsi!
+cs239|cs-CZ|Máš spoustu hvězdiček!
+cs240|cs-CZ|Maty, vyber si bojovníka.
+cs241|cs-CZ|Nelo, vyber si bojovníka.
+cs242|cs-CZ|Žabák
+cs243|cs-CZ|Králíček
+cs244|cs-CZ|Panda
+cs245|cs-CZ|Liška
+cs246|cs-CZ|Kolo jedna!
+cs247|cs-CZ|Kolo dva!
+cs248|cs-CZ|Kolo tři!
+cs249|cs-CZ|Bojuj!
+cs250|cs-CZ|Vyhrál Žabák!
+cs251|cs-CZ|Vyhrál Králíček!
+cs252|cs-CZ|Vyhrála Panda!
+cs253|cs-CZ|Vyhrála Liška!
+cs254|cs-CZ|Skoro! Zkus to znovu!
+cs255|cs-CZ|Papej menší rybičky!
+cs256|cs-CZ|Papejte menší rybičky!
+cs257|cs-CZ|Pozor na velké ryby!
+cs258|cs-CZ|Pozor, žralok!
+cs259|cs-CZ|Teď spolkni žraloka!
+cs260|cs-CZ|Teď spolkněte žraloka!
+cs261|cs-CZ|Hvězdice!
+cs262|cs-CZ|Hurá! Další úroveň!
+cs263|cs-CZ|Vyber si úroveň.
+cs264|cs-CZ|Zkusíme to znovu?
+cs265|cs-CZ|Hurá!
+cs266|cs-CZ|Najdi poklad!
+cs267|cs-CZ|Najděte poklad!
+cs268|cs-CZ|Najdi klíč!
+cs269|cs-CZ|Najděte klíč!
+cs270|cs-CZ|Klíč!
+cs271|cs-CZ|Poklad!
+cs272|cs-CZ|Nejdřív najdi klíč.
+cs273|cs-CZ|Nejdřív najděte klíč.
+cs274|cs-CZ|Vyber si svět.
+cs275|cs-CZ|Haps!
+cs276|cs-CZ|Vyber si trasu.
+cs277|cs-CZ|Louka
+cs278|cs-CZ|Poušť
+cs279|cs-CZ|Zima
+cs280|cs-CZ|Cukrová země
+cs281|cs-CZ|Zahrada!
+cs282|cs-CZ|Zima!
+cs283|cs-CZ|Poušť!
+cs284|cs-CZ|Cukrová země!
+cs285|cs-CZ|Hrad!
+cs286|cs-CZ|Uklidíme!
+cs287|cs-CZ|Zmáčkni zelené tlačítko a křeček poběží domů.
+cs288|cs-CZ|Položte šipku, aby křečci došli domů. Pak zmáčkněte zelené tlačítko.
+cs289|cs-CZ|Polož šipku, aby křeček došel domů. Pak zmáčkni zelené tlačítko.
+cs290|cs-CZ|Pomůžu ti. Teď zmáčkni zelené tlačítko.
+cs291|cs-CZ|Hurá! Všichni jsou doma!
+cs292|cs-CZ|Hurá! Křeček je doma!
+cs293|cs-CZ|Zmáčkni zelené tlačítko.
+cs294|cs-CZ|Všechny šipky už leží. Zmáčkni zelené tlačítko.
+cs295|cs-CZ|Hasiči, jedeme! Uhaste požár!
+cs296|cs-CZ|Hasiči, jedeme! Uhas požár!
+cs297|cs-CZ|Koťátko je zachráněné!
+cs298|cs-CZ|Výborně, hasiči!
+cs299|cs-CZ|Uhašeno!
+cs300|cs-CZ|Paráda!
+cs301|cs-CZ|Pomoc! Koťátko je na stromě!
+cs302|cs-CZ|Došla voda. Jeď k hydrantu.
+cs303|cs-CZ|Gól! Puk je v bráně!
+cs304|cs-CZ|Gól! Nela dala gól!
+cs305|cs-CZ|Gól! Maty dal gól!
+cs306|cs-CZ|Chytil to! Zkus to znovu!
+cs307|cs-CZ|Jdeme na to! Dejte gól!
+cs308|cs-CZ|Jdeme na to! Dej gól!
+cs309|cs-CZ|Plav!
+cs310|cs-CZ|Odkrývej trávu a hledej kytičky. Tečky ukazují, kolik ježků spí kolem.
+cs311|cs-CZ|Odkrývej trávu. Číslo ukazuje, kolik ježků spí kolem.
+cs312|cs-CZ|Au!
+cs313|cs-CZ|Hurá! Všechny kytičky jsou venku!
+cs314|cs-CZ|Maty má levou ploutev, Nela pravou!
+cs315|cs-CZ|Šipkami pohybuj ploutvemi!
+cs316|cs-CZ|Najdi ztracená delfíňata a přivez je k mamince.
+cs317|cs-CZ|Zpívejte tlačítkem a najděte ztracená delfíňata!
+cs318|cs-CZ|Zpívej tlačítkem a najdi ztracená delfíňata!
+cs319|cs-CZ|Zazpívej, krystal se rozpustí!
+cs320|cs-CZ|Pojď se mnou domů!
+cs321|cs-CZ|Děkuju! Jsme zase spolu!
+cs322|cs-CZ|Posbírej kuřátka a doveď je do kurníku!
+cs323|cs-CZ|Pozor na kocoura!
+cs324|cs-CZ|Hurá! Všechna kuřátka jsou doma!
+cs325|cs-CZ|Dívej se na papouška!
+cs326|cs-CZ|Teď vy!
+cs327|cs-CZ|Teď ty!
+cs328|cs-CZ|Stará bota! Ha ha!
+cs329|cs-CZ|Zmáčkni tlačítko a nahoď udici!
+cs330|cs-CZ|Nahoď udici a chyť rybu!
+cs331|cs-CZ|Navíjej!
+cs332|cs-CZ|Vlevo!
+cs333|cs-CZ|Vpravo!
+cs334|cs-CZ|Nahoru!
+cs335|cs-CZ|Dolů!
+cs336|cs-CZ|Tlesk!
+cs337|cs-CZ|Fotbal!
+cs338|cs-CZ|Hokej!
+cs339|cs-CZ|Park!
+cs340|cs-CZ|Dráha!
+cs341|cs-CZ|Lyže!
+cs342|cs-CZ|Snowboard!
+cs343|cs-CZ|Plavání!
+cs344|cs-CZ|Zelená rybka!
+cs345|cs-CZ|Růžová rybka!
+cs346|cs-CZ|Žlutá rybka!
+cs347|cs-CZ|Modrá rybka!
+cs348|cs-CZ|Oranžová rybka!
+cs349|cs-CZ|Fialová rybka!
+cs350|cs-CZ|Ježík!
+cs351|cs-CZ|Krab!
+cs352|cs-CZ|Fotbal, nebo hokej?
+cs353|cs-CZ|Na čem pojedeme?
+en000|en-US|dog
+en001|en-US|cat
+en002|en-US|cow
+en003|en-US|pig
+en004|en-US|duck
+en005|en-US|horse
+en006|en-US|lion
+en007|en-US|elephant
+en008|en-US|fish
+en009|en-US|bear
+en010|en-US|rabbit
+en011|en-US|frog
+en012|en-US|owl
+en013|en-US|monkey
+en014|en-US|giraffe
+en015|en-US|turtle
+en016|en-US|butterfly
+en017|en-US|bee
+en018|en-US|apple
+en019|en-US|banana
+en020|en-US|strawberry
+en021|en-US|carrot
+en022|en-US|cake
+en023|en-US|ice cream
+en024|en-US|cheese
+en025|en-US|pear
+en026|en-US|grapes
+en027|en-US|car
+en028|en-US|bus
+en029|en-US|train
+en030|en-US|airplane
+en031|en-US|boat
+en032|en-US|rocket
+en033|en-US|ball
+en034|en-US|sun
+en035|en-US|house
+en036|en-US|Great job!
+en037|en-US|cherries
+en038|en-US|orange
+en039|en-US|watermelon
+en040|en-US|pineapple
+en041|en-US|peach
+en042|en-US|lemon
+en043|en-US|blueberries
+en044|en-US|star

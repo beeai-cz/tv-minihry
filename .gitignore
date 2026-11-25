@@ -1,0 +1,11 @@
+.gradle/
+build/
+app/build/
+local.properties
+*.apk
+art/raw/
+art/check/
+art/tmp-sega/
+__pycache__/
+*.keystore
+node_modules/

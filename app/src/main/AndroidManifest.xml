@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hry pro Matyho a Nelu. Jedna aplikace, každá hra má vlastní dlaždici na domovské obrazovce
+     (activity-alias s LEANBACK_LAUNCHER) a běží přes celou obrazovku ve WebView z assets.
+     Žádné oprávnění INTERNET: všechno je offline v APK. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-feature android:name="android.software.leanback" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <uses-feature android:name="android.hardware.gamepad" android:required="false" />
+
+    <!-- Google TTS (výslovnost anglických slov) musí být viditelný pro Android 11+. -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:banner="@drawable/banner_pexeso"
+        android:supportsRtl="false"
+        android:theme="@style/GameTheme">
+
+        <activity
+            android:name=".GameActivity"
+            android:exported="false"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|screenLayout|uiMode"
+            android:screenOrientation="landscape"
+            android:hardwareAccelerated="true" />
+
+        <activity-alias
+            android:name=".Pexeso"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_pexeso"
+            android:banner="@drawable/banner_pexeso"
+            android:icon="@drawable/banner_pexeso">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="pexeso" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Dino"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_dino"
+            android:banner="@drawable/banner_dino"
+            android:icon="@drawable/banner_dino">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="dino" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Zavody"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_zavody"
+            android:banner="@drawable/banner_zavody"
+            android:icon="@drawable/banner_zavody">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="zavody" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Skakacka"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_skakacka"
+            android:banner="@drawable/banner_skakacka"
+            android:icon="@drawable/banner_skakacka">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="skakacka" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Rakety"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_rakety"
+            android:banner="@drawable/banner_rakety"
+            android:icon="@drawable/banner_rakety">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="rakety" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Had"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_had"
+            android:banner="@drawable/banner_had"
+            android:icon="@drawable/banner_had">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="had" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Bojovka"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_bojovka"
+            android:banner="@drawable/banner_bojovka"
+            android:icon="@drawable/banner_bojovka">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="bojovka" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Rybicky"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_rybicky"
+            android:banner="@drawable/banner_rybicky"
+            android:icon="@drawable/banner_rybicky">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="rybicky" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Bedynky"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_bedynky"
+            android:banner="@drawable/banner_bedynky"
+            android:icon="@drawable/banner_bedynky">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="bedynky" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Bludiste"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_bludiste"
+            android:banner="@drawable/banner_bludiste"
+            android:icon="@drawable/banner_bludiste">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="bludiste" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Chytacka"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_chytacka"
+            android:banner="@drawable/banner_chytacka"
+            android:icon="@drawable/banner_chytacka">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="chytacka" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Hasici"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_hasici"
+            android:banner="@drawable/banner_hasici"
+            android:icon="@drawable/banner_hasici">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="hasici" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Fotbal"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_fotbal"
+            android:banner="@drawable/banner_fotbal"
+            android:icon="@drawable/banner_fotbal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="fotbal" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Brusle"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_brusle"
+            android:banner="@drawable/banner_brusle"
+            android:icon="@drawable/banner_brusle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="brusle" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Penovky"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_penovky"
+            android:banner="@drawable/banner_penovky"
+            android:icon="@drawable/banner_penovky">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="penovky" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Kostky"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_kostky"
+            android:banner="@drawable/banner_kostky"
+            android:icon="@drawable/banner_kostky">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="kostky" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Jezci"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_jezci"
+            android:banner="@drawable/banner_jezci"
+            android:icon="@drawable/banner_jezci">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="jezci" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Drahokamy"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_drahokamy"
+            android:banner="@drawable/banner_drahokamy"
+            android:icon="@drawable/banner_drahokamy">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="drahokamy" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Krecci"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_krecci"
+            android:banner="@drawable/banner_krecci"
+            android:icon="@drawable/banner_krecci">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="krecci" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Kulicka"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_kulicka"
+            android:banner="@drawable/banner_kulicka"
+            android:icon="@drawable/banner_kulicka">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="kulicka" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Pinball"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_pinball"
+            android:banner="@drawable/banner_pinball"
+            android:icon="@drawable/banner_pinball">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="pinball" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Delfin"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_delfin"
+            android:banner="@drawable/banner_delfin"
+            android:icon="@drawable/banner_delfin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="delfin" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Kuratka"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_kuratka"
+            android:banner="@drawable/banner_kuratka"
+            android:icon="@drawable/banner_kuratka">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="kuratka" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Tanec"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_tanec"
+            android:banner="@drawable/banner_tanec"
+            android:icon="@drawable/banner_tanec">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="tanec" />
+        </activity-alias>
+        <activity-alias
+            android:name=".Rybareni"
+            android:targetActivity=".GameActivity"
+            android:exported="true"
+            android:label="@string/game_rybareni"
+            android:banner="@drawable/banner_rybareni"
+            android:icon="@drawable/banner_rybareni">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="game" android:value="rybareni" />
+        </activity-alias>
+    </application>
+</manifest>
