@@ -4,6 +4,8 @@ Hry, které jsme postavili pro naše dva prcky (Matyho a Nelu) a hrajeme je na t
 Žánry, co jsme v devadesátých letech hrávali na konzolích, jen v dětské verzi. **V žádné hře se nedá prohrát
 ani zaseknout:** pád znamená návrat na vlaječku, zásah jen chvilku zamotá a po pár neúspěších přijde nápověda.
 
+![Všech 25 her](docs/screenshots/dlazdice-25-her.jpg)
+
 ![Hry na domovské obrazovce TV](docs/screenshots/00-televize.jpg)
 
 ![Deset her ze dvaceti pěti](docs/screenshots/kolaz-10-her-sirka.jpg)
